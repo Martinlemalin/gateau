@@ -1,0 +1,151 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+text-align: center;
+margin-top: 25px;
+margin-bottom: -15px;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contenu {
+    background-color: white;
+    margin: 0px 10% 50px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+div.description {
+    text-align: center;
+    }
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.ligne {
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin: auto;
+}
+
+.centreimage {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+.table {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    color: white; 
+    background-color: #6c829dC0; 
+    height: 80px;
+}
+
+.table td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.table th {
+                font-size: 16px;
+                vertical-align: bottom;
+                padding-bottom: 6px;
+}
+
+div.info {
+    position: relative;
+}
+
+.colonne {
+    width: 45%;
+    margin-top: 20px;
+    
+}
+
+.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px solid #6c829d;
+    padding-bottom: 5px;
+}
+
+div.colonne1 {
+margin-right: 10%;
+display: inline-block;
+}
+
+div.colonne2 {
+float: right;
+}
+
+.item {
+    border: 1px solid lightgray;
+    padding: 5px;
+    text-align: center;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.numero {
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.tableitem td {
+vertical-align: top;
+}
+
+.texte {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.tableitem tr {
+    height: 30px;
+}
+
+* {
+    overflow: auto;
+}
